@@ -1,0 +1,35 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./out-tsc/app",
+    "types": [],
+    "paths": {
+      "lib1": [
+        "projects/lib1/src/public-api.ts"
+      ],
+      "lib1/*": [
+        "projects/lib1/src/lib/*"
+      ],
+      "lib2": [
+        "dist/lib2"
+      ],
+      "lib2/*": [
+        "dist/lib2/*"
+      ],
+      "lib3": [
+        "projects/lib3/src/public-api.ts"
+      ],
+      "lib3/*": [
+        "projects/lib3/src/lib/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    "projects/lib3/src/public-api.ts",
+  ],
+  "exclude": [
+    "src/test.ts",
+    "src/**/*.spec.ts"
+  ]
+}

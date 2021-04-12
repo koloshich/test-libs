@@ -2,21 +2,7 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "./out-tsc/app",
-    "types": [],
-    "paths": {
-      "lib1": [
-        "projects/lib1/src/public-api.ts"
-      ],
-      "lib1/*": [
-        "projects/lib1/src/lib/*"
-      ],
-      "lib2": [
-        "dist/lib2"
-      ],
-      "lib2/*": [
-        "dist/lib2/*"
-      ]
-    }
+    "types": []
   },
   "include": [
     "src/**/*.ts"

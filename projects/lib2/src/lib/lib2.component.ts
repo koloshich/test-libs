@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
     <p>
       lib2 works!
       <lib-lib1></lib-lib1>
+      <lib-lib3></lib-lib3>
     </p>
   `,
   styles: ['p {border: 1px solid blue;}']

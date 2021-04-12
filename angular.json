@@ -56,6 +56,9 @@
                   "maximumError": "5mb"
                 }
               ]
+            },
+            "develop": {
+              "tsConfig": "tsconfig.app.dev.json"
             }
           }
         },
@@ -64,10 +67,12 @@
           "options": {
             "browserTarget": "test-libs:build"
           },
-          "tsConfig": "tsconfig.app.dev.json",
           "configurations": {
             "production": {
               "browserTarget": "test-libs:build:production"
+            },
+            "develop": {
+              "browserTarget": "test-libs:build:develop"
             }
           }
         },
