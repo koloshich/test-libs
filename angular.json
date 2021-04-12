@@ -64,6 +64,7 @@
           "options": {
             "browserTarget": "test-libs:build"
           },
+          "tsConfig": "tsconfig.app.dev.json",
           "configurations": {
             "production": {
               "browserTarget": "test-libs:build:production"

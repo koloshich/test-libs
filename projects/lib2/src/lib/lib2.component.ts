@@ -5,9 +5,10 @@ import { Component, OnInit } from '@angular/core';
   template: `
     <p>
       lib2 works!
+      <lib-lib1></lib-lib1>
     </p>
   `,
-  styles: []
+  styles: ['p {border: 1px solid blue;}']
 })
 export class Lib2Component implements OnInit {
 
